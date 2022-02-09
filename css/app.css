@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
 section {
     background-color: #ddd;
     width: 100%;
@@ -59,7 +63,6 @@ button {
     margin: 0;
     text-decoration: none;
     color: #ffffff;
-    font-family: sans-serif;
     font-size: 1rem;
     cursor: pointer;
     text-align: center;
@@ -77,7 +80,6 @@ button:focus {
 
 button:active {
     transform: scale(0.99);
-    transition: 100ms;
 }
 
 
@@ -127,4 +129,10 @@ button:active {
 
 .active{
     display: block;
+}
+
+
+.label_email{
+    font-weight: 800;
+    font-size: 20px;
 }

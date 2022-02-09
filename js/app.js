@@ -29,12 +29,14 @@ buttonVai.addEventListener('click', function(){
         }
         const stampa = document.querySelector('.success')
 
-        if (trovataMail){
+        if (trovataMail) {
             
             alert('Login effettuato con successo')
-            
-        } 
-})
+        }
+            else {
+                alert('i dati inseriti non sono corretti')
+            }
+        })
 
 console.log(userMail)
 
