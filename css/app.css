@@ -24,9 +24,9 @@ section {
     height: 80vh;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: #131313;
+    background-color: #ffffff;
     border-radius: 999px;
-    opacity: 0.7;
+    
 }
 
 
@@ -35,13 +35,13 @@ section {
     padding: 25px;
     background-color: #ddd;
     position: relative;
-    width: 50%;
+    min-width: 50%;
 }
 
 .box--1{
     height: 100vh;
     padding: 25px;
-    background-color: #131313;
+    background-color: #ddd;
     position: relative;
     width: 50%;
 }
@@ -50,7 +50,7 @@ section {
     border-radius: 999px;
     padding: 10px 20px;
     text-align: center;
-    background-color: #4CE0B3;
+    background-color: #00DF6B;
     color: white;
     text-transform: uppercase;
     cursor: pointer;
@@ -70,7 +70,7 @@ button {
 
 button:hover,
 button:focus {
-    background: #2db48c;
+    background: #01d166;
 }
 
 button:focus {
@@ -118,21 +118,15 @@ button:active {
 
 }
 
-.success{
-    display: none;
-    padding: 10px 20px;
-    background-color: #42ac22;
-    color: white;
-    text-align: center;
-}
-
-
-.active{
-    display: block;
-}
-
-
 .label_email{
     font-weight: 800;
     font-size: 20px;
+}
+
+.box-dadi{
+    width: 550px;
+    height: 450px;
+    background-color: #ddd;
+    border-radius: 25px;
+    border: 4px solid #3535EC;
 }

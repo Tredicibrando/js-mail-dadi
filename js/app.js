@@ -1,4 +1,5 @@
 
+//EMAIL
 let userMail = document.getElementById('email')
 const buttonVai = document.getElementById('email_vai')
 const mailUtente= 
@@ -39,6 +40,9 @@ buttonVai.addEventListener('click', function(){
         })
 
 console.log(userMail)
+
+
+//DADI
 
 
     
