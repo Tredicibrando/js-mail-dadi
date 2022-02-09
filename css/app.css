@@ -85,3 +85,17 @@ button{
     cursor: auto;
 
 }
+
+.success{
+    display: none;
+    padding: 10px 20px;
+    background-color: #42ac22;
+    color: white;
+    text-align: center;
+}
+
+.wrong{}
+
+.active{
+    display: block;
+}
