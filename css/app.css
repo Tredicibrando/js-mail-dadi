@@ -29,29 +29,59 @@ section {
 .box{
     height: 100vh;
     padding: 25px;
-    background-color: antiquewhite;
+    background-color: #ddd;
     position: relative;
+    width: 50%;
+}
+
+.box--1{
+    height: 100vh;
+    padding: 25px;
+    background-color: #131313;
+    position: relative;
+    width: 50%;
 }
 
 .btn{
     border-radius: 999px;
     padding: 10px 20px;
     text-align: center;
-    background-color: #702dec;
+    background-color: #4CE0B3;
     color: white;
     text-transform: uppercase;
     cursor: pointer;
 }
 
-button{
-    background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
 }
+
+button:hover,
+button:focus {
+    background: #2db48c;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+    transition: 100ms;
+}
+
+
+
 
 /* after dadi | mail */
 
@@ -94,7 +124,6 @@ button{
     text-align: center;
 }
 
-.wrong{}
 
 .active{
     display: block;
