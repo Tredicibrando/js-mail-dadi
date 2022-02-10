@@ -41,10 +41,43 @@ buttonVai.addEventListener('click', function(){
 
 console.log(userMail)
 
+//Dadi
 
-//DADI
+const btnDadi = document.getElementById('btn_dado')
+
+btnDadi.addEventListener('click' , function(){
+    const playerInput = Math.floor (Math.random() *6 + 1);
+    const pcInput = Math.floor (Math.random() *6 + 1);
+
+    console.log(playerInput , pcInput)
 
 
+    const punteggioPlayer = document.querySelector('.player')
+
+    const punteggioPc = document.querySelector('.pc')
+    
+
+    if (playerInput > pcInput){
+        //vince il giocatore
+        console.log('complimenti hai vinto')
+        punteggioPlayer.append( playerInput )
+        punteggioPc.append( pcInput )
+
+    }   else if ( playerInput < pcInput){
+        //vince il pc
+        console.log('sorry hai perso')
+        punteggioPlayer.append( playerInput )
+        punteggioPc.append( pcInput )
+
+    } else {
+        // pareggio
+        console.log('pari')
+        punteggioPlayer.append( playerInput )
+        punteggioPc.append( pcInput )
+    }
+
+
+})
     
     
 
